@@ -42,9 +42,9 @@ configuration_options =
         label = "Adding more range to Flingomatic",
         options =   {
                         {description = "Normal Range", data = 1, hover = "The range is normal"},
-                        {description = "x10", data = 2, hover = "The range is x2 than normal"},
-                        {description = "x50", data = 3, hover = "The range is x3 than normal"},
-                        {description = "x100", data = 4, hover = "The range is x4 than normal"},
+                        {description = "x2", data = 2, hover = "The range is x2 than normal"},
+                        {description = "x3", data = 3, hover = "The range is x3 than normal"},
+                        {description = "x4", data = 4, hover = "The range is x4 than normal"},
                         {description = "Six Sense", data = 5, hover = "The range is x5 than normal"},
                     },
         default = 1,
@@ -53,8 +53,8 @@ configuration_options =
         name = "WHITE_LIST_CAMPFIRE",
         label = "Extinguish campfire",
         options =   {
-                        {description = "Yes", data = false, hover = "Nearby campfire will be extinguished"},
-                        {description = "No", data = true, hover = "Ignore Nearby campfire"},
+                        {description = "Extinguish", data = false, hover = "Nearby campfire will be extinguished"},
+                        {description = "Ignore", data = true, hover = "Nearby campfire will be ignored"},
                     },
         default = false,
     },
